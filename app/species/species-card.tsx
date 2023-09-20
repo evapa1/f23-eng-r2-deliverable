@@ -41,7 +41,7 @@ export default function SpeciesCard({ species, profile }: PropType) {
       description: species.description || "",
       kingdom: species.kingdom,
       scientific_name: species.scientific_name || "",
-      total_population: species.total_population || "",
+      total_population: species.total_population,
       image: species.image || "",
     },
 
